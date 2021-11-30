@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <title>HTML/CSS Basics Cheatsheet</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <h1>HTML/CSS Basics</h1>
+
+    <div class="htmlTable">
+      <table>
+        <thead>
+          <tr>
+            <th colspan="3"><h2>HTML Basic Tags</h2></th>
+          </tr>
+          <tr>
+            <th class="columnTitle">Tag</th>
+            <th class="columnTitle">Name</th>
+            <th class="columnTitle">Description</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="tag">&lt;html&gt;</td>
+            <td>HTML</td>
+            <td>This is the basic tag that will surround all of your html code.</td>
+        </tr>
+        <tr>
+          <td id="tag">&lt;head&gt;</td>
+          <td>Head</td>
+          <td>This element contains metadata about the document, like its title, scripts, and style sheets.</td>
+        </tr>
+        <tr>
+          <td id="tag">&lt;link&gt;</td>
+          <td>Link</td>
+          <td>Connects the current document and an external resource, most commonly CSS style docs</td>
+        </tr>
+        <tr>
+          <td id="tag">&lt;style&gt;</td>
+          <td>Style</td>
+          <td>Contains style information for the document or part of a document, contains CSS, which is applied using the &lt;style&gt; element.</td>
+        </tr>
+        <tr>
+          <td id="tag">&lt;title&gt;</td>
+          <td>Title</td>
+          <td>This shows the doc's title in the pages tab</td>
+        </tr>
+        <tr>
+          <td id="tag">&lt;article&gt;</td>
+          <td>Article</td>
+          <td>This element shows that it contains content that is distributed/reusable i.e. a blog post, article, product card, interactive widget, etc.</td>
+        </tr>
+        </tbody>
+      </table>
+    </div>
+
+
+    <h2>CSS Specificity</h2>
+    <div class="cssTable">
+        <p>Type Selectors i.e. &lt;p&gt;</p>
+        <p>Class</p>
+        <p>ID</p>
+        <p>Combination of above elements</p>
+        <p>Inline styles added to an element (e.g., style="font-weight: bold;") always overwrite any styles in external stylesheets, and thus can be thought of as having the highest specificity.</p>
+        <p>!important (the Trump card)</p>
+        <p>Whichever is the most specific will override the others</p>
+        <p>Rules that appear later in the code override earlier rules if both have the same specificity.</p>
+    </div>
+
+    <footer>
+      <h5>Contact</h5>
+      <h5>Location</h5>
+      <h5>Kathleen is cool</h5>
+    </footer>
+
+  </body>
+
+
+</html>

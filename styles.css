@@ -1,0 +1,31 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: darkcyan;
+}
+
+table {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  td {
+    border: 1px solid black;
+    width: 200px;
+  }
+
+  .columnTitle {
+    background-color: lightblue;
+  }
+
+  .cssTable {
+    background-color: lightcyan;
+  }
+
+  #tag {
+    background-color: lightgoldenrodyellow;
+    font-family: "Lucida Console", Courier, monospace;
+  }
